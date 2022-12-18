@@ -8,7 +8,7 @@ Ethereum’s smart contract storage slot are each 256 bits, or 32 bytes. Solidit
 
 This means your arithmetic operations are prone to underflow and overflow errors, when your numbers flow under or over the allocated bits of storage.
 
-![Untitled](images/Level_5.png)
+![Untitled](Level%205%20Token%20ba031a86483c4990a2c79e8af215adc0/Untitled.png)
 
 The point of failure here is `require(balances[msg.sender] - _value >= 0);`
 

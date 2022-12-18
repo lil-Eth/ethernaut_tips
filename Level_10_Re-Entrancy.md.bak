@@ -6,7 +6,7 @@ What is re-entrancy : Re-entrancy happens in single-thread computing environment
 
 Number One of the [dasp.co](https://dasp.co/)
 
-![Untitled](images/Level_10.png)
+![Untitled](Level%2010%20Re-Entrancy%202a5ed0826f644b5ca5ccb61b1d6f3312/Untitled.png)
 
 In the example above, Contract B is a malicious contract which recursively calls A.withdraw() to deplete Contract A’s funds. **Note that the fund extraction successfully finishes before Contract A returns from its recursive loop, and even realizes that B has extracted way above its own balance.**
 
